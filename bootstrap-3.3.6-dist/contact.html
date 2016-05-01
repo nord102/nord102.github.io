@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Contact - Jordan Thompson</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>    
+    <!-- HEADER -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Jordan Thompson</a> <!-- Brand of the Website -->
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Themes<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Admin & Dashboard</li>
+                <li><a href="#">Admin 1</a></li>
+                <li><a href="#">Admin 2</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Portfolio</li>
+                <li><a href="#">Portfolio 1</a></li>
+                <li><a href="#">Portfolio 2</a></li>
+              </ul>
+            </li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div> <!-- navbar-collapse collapse -->
+      </div>
+    </div>
+
+    <!-- BODY -->
+    <div class"container">
+      <div class="page-header">
+        <h1>Contact</h1>
+      </div>
+      <div class="page-body col-md-6">
+        <div class="form-horizontal" role="form">
+          <!-- Contact Name -->
+          <div class="form-group">
+             <label form="contact-name" class="col-md-2 control-label">Name</label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="contact-name" placeholder="First & Last Name">
+            </div>        
+          </div>
+          <!-- Contact Email -->
+          <div class="form-group">
+            <label form="contact-email" class="col-md-2 control-label">Email</label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="contact-email" placeholder="example@domain.com">
+            </div>        
+          </div>
+          <!-- Contact Subject -->
+          <div class="form-group">
+            <label form="contact-subject" class="col-md-2 control-label">Subject</label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="contact-subject" placeholder="Subject">
+            </div>        
+          </div>
+          <!-- Contact Message -->
+          <div class="form-group">
+            <label form="contact-message" class="col-md-2 control-label">Message</label>
+            <div class="col-md-10">
+              <textarea class="form-control" rows="4"></textarea>     
+            </div>
+          </div>
+          <!-- Send Message Button -->
+          <div class="page-footer">              
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>  
+        </div>
+      </div>
+      <!-- Embedded Google Map -->
+      <div class="map_container col-md-6">
+        <div class="map-responsive">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2897.3036176759206!2d-80.44211988414663!3d43.433374479129306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf3ef52193193%3A0xaee720396b6abfd5!2sDash+Digital+Group!5e0!3m2!1sen!2sca!4v1462063674224" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>        
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+      <div class="container">
+        <div class="navbar-text pull-left">
+          <p> Copyright 2016 Jordan Thompson</p>
+        </div>
+        <div class="navbar-text">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="navbar-text pull-right">
+          <!-- Facebook Profile Link? --> 
+          <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>   
+          <!-- GitHub Profile Link -->    
+          <a href="https://github.com/nord102"><i class="fa fa-github fa-2x"></i></a>    
+          <!-- LinkedIn Profile Link -->          
+          <a href="https://ca.linkedin.com/in/jordan-thompson-021b2988"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Placed at end of the document so the pages load faster -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
