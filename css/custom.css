@@ -105,6 +105,27 @@ textarea {
 
 
 
+.spacer {
+	height: 80px;	
+}
+
+.morespacer {
+	height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*	Body */
 body {
 	padding-top:70px;

@@ -37,15 +37,13 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Themes<b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media<b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li class="dropdown-header">Admin & Dashboard</li>
-                <li><a href="#">Admin 1</a></li>
-                <li><a href="#">Admin 2</a></li>
+                <li class="dropdown-header">Videos</li>
+                <li><a href="videos.html">Sample Videos</a></li>
                 <li class="divider"></li>
-                <li class="dropdown-header">Portfolio</li>
-                <li><a href="#">Portfolio 1</a></li>
-                <li><a href="#">Portfolio 2</a></li>
+                <li class="dropdown-header">Images</li>
+                <li><a href="images.html">Sample Images</a></li>
               </ul>
             </li>
             <li class="active"><a href="contact.html">Contact</a></li>
@@ -56,7 +54,7 @@
 
     <!-- BODY -->
     <div class"container">
-      <!-- Side bar -->
+      <!-- Sidebar -->
       <div class="col-md-2">
         <div class="sidebar text-center">
           <div class="thumbnail bg-grey text-center ">
@@ -88,41 +86,41 @@
         <div class="page-body col-md-6">
           <div class="text-center">
             <h3>Feel free to contact me</h3>
-          </div>      
-          <div class="form-horizontal" role="form">
-            <!-- Contact Name -->
-            <div class="form-group">
-               <label form="contact-name" class="col-md-2 control-label">Name</label>
-              <div class="col-md-10">
-                <input type="text" class="form-control" id="contact-name" placeholder="First & Last Name">
-              </div>        
-            </div>
-            <!-- Contact Email -->
-            <div class="form-group">
-              <label form="contact-email" class="col-md-2 control-label">Email</label>
-              <div class="col-md-10">
-                <input type="text" class="form-control" id="contact-email" placeholder="example@domain.com">
-              </div>        
-            </div>
-            <!-- Contact Subject -->
-            <div class="form-group">
-              <label form="contact-subject" class="col-md-2 control-label">Subject</label>
-              <div class="col-md-10">
-                <input type="text" class="form-control" id="contact-subject" placeholder="Subject">
-              </div>        
-            </div>
-            <!-- Contact Message -->
-            <div class="form-group">
-              <label form="contact-message" class="col-md-2 control-label">Message</label>
-              <div class="col-md-10">
-                <textarea class="form-control" rows="4"></textarea>     
+          </div>          
+            <form class="form-horizontal" role="form">
+              <!-- Contact Name -->
+              <div class="form-group">
+                <label form="contact-name" class="col-md-2 control-label">Name</label>
+                <div class="col-md-10">
+                  <input type="text" class="form-control" id="contact-name" placeholder="First & Last Name" required>
+                </div>        
               </div>
-            </div>
-            <!-- Send Message Button -->
-            <div class="page-footer">              
+              <!-- Contact Email -->
+              <div class="form-group">
+                <label form="contact-email" class="col-md-2 control-label">Email</label>
+                <div class="col-md-10">
+                  <input type="text" class="form-control" id="contact-email" placeholder="example@domain.com" required>
+                </div>        
+              </div>
+              <!-- Contact Subject -->
+              <div class="form-group">
+                <label form="contact-subject" class="col-md-2 control-label">Subject</label>
+                <div class="col-md-10">
+                  <input type="text" class="form-control" id="contact-subject" placeholder="Subject" required>
+                </div>        
+              </div>
+              <!-- Contact Message -->
+              <div class="form-group">
+                <label form="contact-message" class="col-md-2 control-label">Message</label>
+                <div class="col-md-10">
+                  <textarea class="form-control" rows="4" required></textarea>     
+                </div>
+              </div>
+              <!-- Send Message Button -->
+              <div class="page-footer">              
                 <button type="submit" class="btn btn-primary">Send Message</button>
               </div>  
-          </div>
+            </form>          
         </div>
         <!-- Embedded Google Map -->
         <div class="map_container col-md-6">
@@ -143,16 +141,16 @@
     <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
       <div class="container">
         <div class="navbar-text pull-left">
-          <p> Copyright 2016 Jordan Thompson</p>
+          <p>Copyright 2016 Jordan Thompson</p>
         </div>
-        <div class="navbar-text">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="contact.html">Contact</a>
-        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
         <div class="navbar-text pull-right">
           <!-- Facebook Profile Link? --> 
-          <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>   
+          <a href="https://www.facebook.com/jordan.thompson.7374"><i class="fa fa-facebook-square fa-2x"></i></a>   
           <!-- GitHub Profile Link -->    
           <a href="https://github.com/nord102"><i class="fa fa-github fa-2x"></i></a>    
           <!-- LinkedIn Profile Link -->          
