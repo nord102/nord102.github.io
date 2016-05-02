@@ -32,14 +32,12 @@
 	color: #08CC29;
 	background-color: #101029;
 }
-
-
-/* MIGHT NOT INCLUDE */
+/* Pages - Dropdown */
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-	color: #FFFFFF;
-	background-color: #1A242F;
+	color: #08CC29;
+	background-color: #101029;
 }
 
 
@@ -63,21 +61,24 @@
 	color: #08CC29;
 }
 
+/* SIDEBAR *****************************************/
+
+.bg-grey {
+	background-color: #F9F9F9;
+}
 
 /* FONTS *****************************************/
 
-/*	Paragraphs */
-p {
-	font-family: 'Montserrat', sans-serif;
-}
 /*	Headers */
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Candal', sans-serif;
 }
+/*	Paragraphs */
+p {
+	font-family: 'Montserrat', sans-serif;
+}
 
-
-
-/* GOOGLE MAP */
+/* GOOGLE MAP *****************************************/
 
 .map-responsive{
     overflow:hidden;
@@ -93,66 +94,6 @@ h1, h2, h3, h4, h5, h6 {
     position:absolute;
 }
 
-
-.page-footer {
-	text-align: right;
-	padding-bottom: 20px;
-}
-
-textarea {
-	resize: none;
-}
-
-
-
-.spacer {
-	height: 80px;	
-}
-
-.morespacer {
-	height: 100px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*	Body */
-body {
-	padding-top:70px;
-	padding-bottom:100px;
-	padding-right:50px;
-	padding-left:50px;
-}
-
-/* 
-Incase of image in jumbo
-.jumbotron {
-	 height: 300px;
-	 background:transparent;
-}
-
-.bg {
-  background: url('../img/background.jpg') no-repeat center center;
-  position: fixed;
-  width: 100%;
-  height: 300px;
-  top:0;
-  left:0;
-  z-index: -1;
-}
-*/
-
-
 /* PRIMARY BUTTON *****************************************/
 
 .btn-primary {
@@ -160,24 +101,23 @@ Incase of image in jumbo
 	background-color: #19193D;
 	border-color:#19193D;	
 }
-
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
 	color: #FFFFFF;
-	background-color: #1E2A36;
+	background-color: #101029;
 	border-color: #161F29;
 }
 
-/*	Success Button */
+/*	SUCCESS BUTTON *****************************************/
+
 .btn-success {
 	background-color: #18BC9C;
 	border-color:#18BC9C;
 	color:#FFFFFF;
 }
-
 .btn-success:hover,
 .btn-success:focus,
 .btn-success:active,
@@ -188,33 +128,29 @@ Incase of image in jumbo
 	border-color: #13987E;
 }
 
-/*	Default Button */
-.btn-default {
-	background-color: #95A5A6;
-	border-color:#95A5A6;
-	color:#FFFFFF;
+/* MISC *****************************************/
+
+/*	Body */
+body {
+	padding-top:70px;
+	padding-bottom:100px;
+	padding-right:50px;
+	padding-left:50px;
 }
-
-.btn-default:hover,
-.btn-default:focus,
-.btn-default:active,
-.btn-default.active,
-.open .dropdown-toggle.btn-default {
-	color: #FFFFFF;
-	background-color: #7F9293;
-	border-color: #7489BA;
-}
-
-
-.bg-grey {
-	background-color: #F9F9F9;
-}
-
+/* Space between Images and Carousel */
 .row {
 	padding-top: 20px;
 }
-
-.thumbnail img.portrait {
-  width: 100%;
-  height: 100%;
+/* Space between Body and Footer */
+.spacer {
+	height: 80px;	
+}
+/* Contact Submit Button */
+.contact-submit {
+	text-align: right;
+	padding-bottom: 20px;
+}
+/* Contact Message */
+textarea {
+	resize: none;
 }
