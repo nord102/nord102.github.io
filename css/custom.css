@@ -23,7 +23,7 @@
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	color:#08CC29;
-	background-color: transparent;
+	background-color: #101029;
 }
 /* Pages Active */
 .navbar-default .navbar-nav > .active > a,
@@ -105,10 +105,6 @@ textarea {
 
 
 
-
-
-
-
 /*	Body */
 body {
 	padding-top:70px;
@@ -117,24 +113,31 @@ body {
 	padding-left:50px;
 }
 
+/* 
+Incase of image in jumbo
+.jumbotron {
+	 height: 300px;
+	 background:transparent;
+}
+
+.bg {
+  background: url('../img/background.jpg') no-repeat center center;
+  position: fixed;
+  width: 100%;
+  height: 300px;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+*/
 
 
+/* PRIMARY BUTTON *****************************************/
 
-
-
-
-
-
-
-
-
-
-
-/*	Primary Button */
 .btn-primary {
-	background-color: #2C3E50;
-	border-color:#2C3E50;
 	color:#FFFFFF;
+	background-color: #19193D;
+	border-color:#19193D;	
 }
 
 .btn-primary:hover,
@@ -188,4 +191,9 @@ body {
 
 .row {
 	padding-top: 20px;
+}
+
+.thumbnail img.portrait {
+  width: 100%;
+  height: 100%;
 }
